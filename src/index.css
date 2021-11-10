@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(207, 205, 205);
+    background-color: rgb(214, 214, 214);
     
     margin: 0;
 }
@@ -8,12 +8,14 @@ h1 {
     padding: 20px;
     font-family: 'Brush Script MT', cursive;
     font-size: 40px;
-    
+    text-shadow:  0  0 20px rgba(43, 95, 50, 0.911);
 
 }
 h2{
     font-size: 40px;
     text-align: center;
+    color: white;
+    text-shadow:  0 0 5px rgba(255, 255, 255, 0.89);
 }
 h1, h2, p, ul, li {
     font-family: 'Times New Roman', serif;
@@ -21,7 +23,7 @@ h1, h2, p, ul, li {
 p{
     font-size: 22px;
     font-weight: 500;
-    color: rgb(57, 59, 59);
+    color: white;
 }
 
 
@@ -31,7 +33,7 @@ ul.header li {
     margin: 0;
 }
 ul.header {
-    background-color: #21372D;
+    background-color: #204420;
     padding: 0;
     
     
@@ -44,7 +46,7 @@ ul.header li a {
     display: inline-block;
 }
 .content {
-    background-color: #F2D5CD;
+    background-color: black;
     padding: 20px;
 }
 .content h2 {
@@ -56,14 +58,14 @@ ul.header li a {
 }
 
 img {
-    width: 50%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 a:link {
-    color: rgb(33, 65, 38);
+    color: rgb(32, 95, 42);
     text-decoration: none;
     font-weight: 700;
   }
